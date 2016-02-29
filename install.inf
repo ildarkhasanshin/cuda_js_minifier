@@ -1,0 +1,11 @@
+[info]
+title=JS Minifier
+desc=Makes JavaScript code compact
+type=cudatext-plugin
+subdir=cuda_js_minifier
+
+[item1]
+section=commands
+caption=JS Minifier
+method=run
+lexers=JavaScript
