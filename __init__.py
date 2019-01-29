@@ -15,3 +15,6 @@ def do_format(text):
 class Command:
     def run(self):
         format_proc.run(do_format)
+
+    def save_to_min_js(self):
+        format_proc.min_js(do_format)

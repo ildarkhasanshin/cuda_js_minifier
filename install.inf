@@ -3,9 +3,16 @@ title=JS Minifier
 desc=Makes JavaScript code compact
 type=cudatext-plugin
 subdir=cuda_js_minifier
+homepage=https://github.com/CudaText-addons/cuda_js_minifier
 
 [item1]
 section=commands
-caption=JS Minifier
+caption=JS Minifier\Minify and save to current file
 method=run
+lexers=JavaScript
+
+[item2]
+section=commands
+caption=JS Minifier\Minify and save to new file filename.min.js
+method=save_to_min_js
 lexers=JavaScript
